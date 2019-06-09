@@ -25,7 +25,7 @@
 
 (deftheme wilmersdorf)
 (let ((class '((class color) (min-colors 89)))
-      (fg1 "#c5c5da")
+      (fg1 "#b6c6e6")
       (fg2 "#ababab")
       (fg3 "#929292")
       (fg4 "#888395")
@@ -61,7 +61,7 @@
    `(font-lock-warning-face ((,class (:foreground ,warning :background ,bg2))))
    `(region ((,class (:background ,bg4 :foreground ,fg1))))
    `(highlight ((,class (:foreground ,bg3 :background ,fg3))))
-   `(hl-line ((,class (:background  ,bg2))))
+   `(hl-line ((,class (:background  ,"#222228"))))
    `(fringe ((,class (:background ,bg1 :foreground ,fg4))))
    `(cursor ((,class (:background ,fg1))))
    `(show-paren-match-face ((,class (:background ,warning))))
