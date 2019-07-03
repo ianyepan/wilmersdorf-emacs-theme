@@ -9,6 +9,6 @@ Inspired by Monochrome, Spacemacs Dark, Ariake Dark, and Raiju
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/120px-EmacsIcon.svg.png" />
 </p>
 
-## Screenshot: GNU Emacs 26.2 on macOS
+### Screenshot: GNU Emacs 26.2 on macOS
 
 ![alt text](./screenshot.png)
