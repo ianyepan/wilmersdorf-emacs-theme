@@ -230,7 +230,16 @@
    `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
    `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
    `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
-   `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
+   `(jde-java-font-lock-number-face ((t (:foreground ,var))))
+   `(centaur-tabs-default ((t (:background ,bg1 :foreground ,fg1))))
+   `(centaur-tabs-selected ((t (:background ,bg1 :foreground "white"))))
+   `(centaur-tabs-unselected ((t (:background "#1D2430" :foreground ,fg3))))
+   `(centaur-tabs-selected-modified ((t (:background ,bg1 :foreground ,"#c9d9ff"))))
+   `(centaur-tabs-unselected-modified ((t (:background ,"#1D2430" :foreground ,fg4))))
+   `(centaur-tabs-active-bar-face ((t (:background "#C9D9FF"))))
+   `(centaur-tabs-modified-marker-selected ((t (:inherit 'centaur-tabs-selected-modified :foreground "#c9d9ff"))))
+   `(centaur-tabs-modified-marker-unselected ((t (:inherit 'centaur-tabs-unselected-modified :foreground "#c9d9ff"))))
+   ))
 
 (provide-theme 'wilmersdorf)
 
