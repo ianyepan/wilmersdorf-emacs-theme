@@ -1,4 +1,4 @@
-### Emacs Wilmersdorf Theme
+### Wilmersdorf Emacs Theme
 
 Wilmersdorf-theme.el --- Emacs theme with dark subtle syntax highlighting
 
