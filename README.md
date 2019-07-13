@@ -17,7 +17,9 @@ Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/`, then add 
   (load-theme `wilmersdorf t)
 ```
 
-### Screenshot: GNU Emacs 26.2 on macOS
+#### Screenshot: GNU Emacs 26.2 on macOS
+
+![alt text](./screenshot3.png)
 
 ![alt text](./screenshot2.png)
 
