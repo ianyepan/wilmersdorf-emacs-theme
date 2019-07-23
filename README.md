@@ -1,10 +1,11 @@
-### Wilmersdorf Emacs Theme
+<h3 align="center">Wilmersdorf Emacs Theme</h3>
+<hr/>
+<p align="center">An Emacs theme with dark subtle syntax highlighting</p>
 
-An Emacs theme with dark subtle syntax highlighting
+<p align="center">Inspired by Monochrome, Spacemacs Dark, Ariake Dark, and Raiju</p>
 
-Inspired by Monochrome, Spacemacs Dark, Ariake Dark, and Raiju
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+<p align="center"><a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="License GPL 3" /></a>
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/120px-EmacsIcon.svg.png" />
@@ -17,7 +18,7 @@ Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/`, then add 
   (load-theme `wilmersdorf t)
 ```
 
-#### Screenshot: GNU Emacs 26.2 on macOS
+#### Screenshots: Emacs 26.2 on macOS
 
 ![alt text](./screenshot3.png)
 
