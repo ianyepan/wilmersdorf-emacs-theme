@@ -16,6 +16,9 @@
 
 <p align="center">Inspired by Monochrome, Spacemacs Dark, Ariake Dark, and Raiju</p>
 
+<br/>
+<br/>
+
 Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/`, then add these 2 lines to your `init.el`:
 
 ```
