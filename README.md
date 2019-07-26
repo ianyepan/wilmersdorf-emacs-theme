@@ -1,15 +1,20 @@
 <h3 align="center">Wilmersdorf Emacs Theme</h3>
 <hr/>
-<p align="center">An Emacs theme with dark subtle syntax highlighting</p>
 
-<p align="center">Inspired by Monochrome, Spacemacs Dark, Ariake Dark, and Raiju</p>
-
-
-<p align="center"><a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="License GPL 3" /></a>
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/120px-EmacsIcon.svg.png" />
 </p>
+
+<p align="center">
+<a href="https://github.com/ianpan870102/wilmersdorf-emacs-theme"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance"></a>
+<a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="GPL License"></a>
+<a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+</p>
+
+<p align="center">An Emacs theme with dark subtle syntax highlighting</p>
+
+<p align="center">Inspired by Monochrome, Spacemacs Dark, Ariake Dark, and Raiju</p>
 
 Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/`, then add these 2 lines to your `init.el`:
 
