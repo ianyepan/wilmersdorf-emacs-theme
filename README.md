@@ -19,7 +19,7 @@
 <br/>
 <br/>
 
-#### Note: This theme is now featured in the doom-theme package as doom-wilmersdorf
+#### Note: This theme is now featured in the [doom-themes](https://github.com/hlissner/emacs-doom-themes) package as doom-wilmersdorf
 
 #### Installation
 
