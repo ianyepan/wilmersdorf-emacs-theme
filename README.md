@@ -19,14 +19,23 @@
 <br/>
 <br/>
 
+#### Note: This theme is now featured in the doom-theme package as doom-wilmersdorf
+
+#### Installation
+
+##### Option 1. Manual install
+
 Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/`, then add these 2 lines to your `init.el`:
 
 ```
   (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
   (load-theme `wilmersdorf t)
 ```
+##### Option 2. MELPA
 
-#### Screenshots: Emacs 26.2 on macOS
+Install the `doom-themes` package from MELPA, and load the `doom-wilmersdorf` theme.
+
+#### Screenshots: Emacs 26 on macOS
 
 ![alt text](./screenshot3.png)
 
