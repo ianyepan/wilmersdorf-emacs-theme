@@ -29,7 +29,7 @@ Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 
 ```
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-# or 
+# or
 (add-to-list 'custom-theme-load-path "~/.config/emacs/themes/")
 
 (load-theme `wilmersdorf t)
@@ -38,11 +38,11 @@ Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.co
 
 Install the `doom-themes` package from MELPA, and load the `doom-wilmersdorf` theme.
 
-#### Screenshots: Emacs 26 on macOS
+#### Screenshots
 
-![alt text](./screenshot3.png)
+![alt text](./screenshots/posframe.png)
 
-![alt text](./screenshot2.png)
+![alt text](./screenshots/solaire.png)
 
 
 Copyright© 2018 Ian Y.E. Pan
