@@ -28,8 +28,8 @@
 Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/`, then add these 2 lines to your `init.el`:
 
 ```
-  (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-  (load-theme `wilmersdorf t)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(load-theme `wilmersdorf t)
 ```
 ##### Option 2. MELPA
 
