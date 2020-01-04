@@ -285,7 +285,7 @@
    `(ivy-current-match ((t (:background ,bg3))))
    `(ivy-highlight-face ((t (:inherit font-lock-builtin-face))))
    `(ivy-match-required-face ((t (:inherit minibuffer-prompt :foreground ,warning))))
-   `(ivy-minibuffer-match-face-1 ((t (:inherit default :foreground ,var))))
+   `(ivy-minibuffer-match-face-1 ((t (:inherit isearch))))
    `(ivy-minibuffer-match-face-2 ((t (:inherit ivy-minibuffer-match-face-1))))
    `(ivy-minibuffer-match-face-3 ((t (:inherit ivy-minibuffer-match-face-2))))
    `(ivy-minibuffer-match-face-4 ((t (:inherit ivy-minibuffer-match-face-2))))
