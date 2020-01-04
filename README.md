@@ -25,10 +25,13 @@
 
 ##### Option 1. Manual install
 
-Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/`, then add these 2 lines to your `init.el`:
+Download `wilmersdorf-theme.el` and put it under `~/.emacs.d/themes/` (or `~/.config/emacs/themes/`), then add these lines to your `init.el`:
 
 ```
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+# or 
+(add-to-list 'custom-theme-load-path "~/.config/emacs/themes/")
+
 (load-theme `wilmersdorf t)
 ```
 ##### Option 2. MELPA
