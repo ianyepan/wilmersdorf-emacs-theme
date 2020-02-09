@@ -30,12 +30,17 @@
       (fg2     "#ababab")
       (fg3     "#929292")
       (fg4     "#888395")
+	  (fg5     "#687898")
+	  (fg6     "#c8c8e8")
       (bg00    "#18191f")
       (bg0     "#1f2024")
       (bg1     "#282b33")
       (bg2     "#34373e")
       (bg3     "#41454b")
       (bg4     "#515462")
+	  (bg5     "#182848")
+	  (bg6     "#283858")
+	  (bg7     "#586888")
       (key2    "#90a6db")
       (key3    "#7289bc")
       (accent  "#c9d9ff")
@@ -304,6 +309,11 @@
 
    `(evil-ex-substitute-matches               ((t :foreground "#ff0000" :weight bold :strike-through t)))
    `(evil-ex-substitute-replacement           ((t :foreground "#0ff000" :weight bold)))
+
+   `(tab-line              ((t (:inherit default      :background ,bg5 :box (:color ,bg5)))))
+   `(tab-line-tab-inactive ((t (:inherit tab-line-tab :foreground ,fg5 :background ,bg6 :box (:color ,bg6)))))
+   `(tab-line-tab-current  ((t (:inherit tab-line-tab :foreground ,fg6 :background ,bg7 :box (:color ,bg7)))))
+
    ))
 
 (provide-theme 'wilmersdorf)
