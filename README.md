@@ -45,7 +45,7 @@ Install the `doom-themes` package from MELPA, and load the `doom-wilmersdorf` th
 ![alt text](./screenshots/solaire.png)
 
 
-Copyright© 2018 Ian Y.E. Pan
+Copyright© 2018-2020 Ian Y.E. Pan
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
