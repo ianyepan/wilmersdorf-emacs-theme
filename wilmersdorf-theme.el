@@ -310,6 +310,9 @@
    `(evil-ex-substitute-matches               ((t :foreground "#ff0000" :weight bold :strike-through t)))
    `(evil-ex-substitute-replacement           ((t :foreground "#0ff000" :weight bold)))
 
+   `(line-number                              ((t (:inherit fringe))))
+   `(line-number-current-line                 ((t (:inherit fringe :foreground ,fg0 :weight bold))))
+
    `(tab-line              ((t (:inherit fringe :box (:color ,bg1 :line-width 2)))))
    `(tab-line-tab-inactive ((t (:inherit tab-line-tab :foreground ,fg5 :background ,bg6 :box (:line-width 2 :color ,bg6)))))
    `(tab-line-tab-current  ((t (:inherit tab-line-tab :foreground ,fg6 :background ,bg7 :box (:line-width 2 :color ,bg7)))))
