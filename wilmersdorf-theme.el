@@ -305,6 +305,9 @@
    `(evil-ex-substitute-matches               ((t :foreground "#ff0000" :weight bold :strike-through t)))
    `(evil-ex-substitute-replacement           ((t :foreground "#0ff000" :weight bold)))
 
+   ;; yasnippet : the current field
+   `(yas-field-highlight-face ((,class (:background ,bg4 ))))
+
    `(line-number                              ((t (:inherit fringe))))
    `(line-number-current-line                 ((t (:inherit fringe :foreground ,fg0 :weight bold))))
 
