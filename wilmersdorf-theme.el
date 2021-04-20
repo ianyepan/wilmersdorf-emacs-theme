@@ -75,7 +75,7 @@
    `(region                                   ((,class (:background ,bg2 :foreground ,fg0))))
    `(highlight                                ((,class (:foreground ,bg3 :background ,fg3))))
    `(hl-line                                  ((,class (:background  ,bg2))))
-   `(fringe                                   ((,class (:background ,bg1 :foreground ,fg4))))
+   `(fringe                                   ((,class (:background nil :foreground ,fg4))))
    `(cursor                                   ((,class (:background ,fg1))))
    `(show-paren-match-face                    ((,class (:background ,warning))))
    `(show-paren-match                         ((t (:background ,bg4))))
