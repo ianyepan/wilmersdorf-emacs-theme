@@ -334,6 +334,12 @@
    `(highlight-numbers-number                 ((t (:foreground ,numeric))))
 
    `(highlight-symbol-face                    ((t (:background "#343a40"))))
+
+   `(tree-sitter-hl-face:method.call          ((t (:inherit font-lock-function-name-face))))
+   `(tree-sitter-hl-face:function.call        ((t (:inherit font-lock-function-name-face))))
+   `(tree-sitter-hl-face:operator             ((t (:inherit default))))
+   `(tree-sitter-hl-face:number               ((t (:inherit highlight-numbers-number))))
+
    ))
 
 (provide-theme 'wilmersdorf)
