@@ -340,6 +340,23 @@
    `(tree-sitter-hl-face:operator             ((t (:inherit default))))
    `(tree-sitter-hl-face:number               ((t (:inherit highlight-numbers-number))))
 
+   `(font-latex-bold-face                     ((t (:inherit bold))))
+   `(font-latex-italic-face                   ((t (:inherit italic))))
+   `(font-latex-math-face                     ((t (:foreground ,wm-blue))))
+   `(font-latex-sectioning-0-face             ((t (:foreground ,wm-blue))))
+   `(font-latex-sectioning-1-face             ((t (:foreground ,wm-magenta))))
+   `(font-latex-sectioning-2-face             ((t (:foreground ,wm-orange))))
+   `(font-latex-sectioning-3-face             ((t (:foreground ,wm-blue))))
+   `(font-latex-sectioning-4-face             ((t (:foreground ,wm-red))))
+   `(font-latex-sectioning-5-face             ((t (:foreground ,wm-green))))
+   `(font-latex-script-char-face              ((t (:foreground ,wm-blue))))
+   `(font-latex-string-face                   ((t (:inherit font-lock-string-face))))
+   `(font-latex-warning-face                  ((t (:inherit font-lock-warning-face))))
+   `(font-latex-verbatim-face                 ((t (:inherit org-verbatim))))
+   `(TeX-error-description-error              ((t (:inherit error :bold t))))
+   `(TeX-error-description-warning            ((t (:inherit warning :bold t))))
+   `(TeX-error-description-tex-said           ((t (:inherit success :bold t))))
+
    ))
 
 (provide-theme 'wilmersdorf)
