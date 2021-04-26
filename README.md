@@ -51,7 +51,6 @@ On macOS:
 ![alt text](./screenshots/solaire.png)
 
 <br/>
-
 On Arch Linux (WSL2):
 <br/>
 
@@ -59,6 +58,30 @@ On Arch Linux (WSL2):
 
 ![alt text](./screenshots/neofetch.png)
 
+
+#### Solaire-mode support
+
+This theme supports solaire-mode. A sample configuration is as
+follows:
+
+```emacs-lisp
+(use-package solaire-mode
+  :hook ((change-major-mode . turn-on-solaire-mode)
+         (after-revert . turn-on-solaire-mode)
+         (ediff-prepare-buffer . solaire-mode)
+         (minibuffer-setup . solaire-mode-in-minibuffer))
+  :config
+  (add-to-list 'solaire-mode-themes-to-face-swap '"wilmersdorf")
+  (setq solaire-mode-auto-swap-bg t)
+  (solaire-global-mode +1))
+
+(with-eval-after-load 'solaire-mode
+  (add-to-list 'custom-theme-load-path (concat user-emacs-directory "themes/"))
+  (load-theme 'wilmersdorf t))
+```
+
+<br/>
+<br/>
 
 Copyright© 2018-2021 Ian Y.E. Pan
 
