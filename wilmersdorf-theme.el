@@ -357,6 +357,14 @@
    `(TeX-error-description-warning            ((t (:inherit warning :bold t))))
    `(TeX-error-description-tex-said           ((t (:inherit success :bold t))))
 
+   `(neo-dir-link-face                        ((t (:foreground "#dddddd"))))
+   `(neo-header-face                          ((t (:foreground "#dddddd"))))
+   `(neo-banner-face                          ((t (:foreground "#dddddd"))))
+   `(neo-root-dir-face                        ((t (:foreground "#dddddd"))))
+   `(neo-file-link-face                       ((t (:foreground "#dddddd"))))
+   `(neo-expand-btn-face                      ((t (:foreground "#dddddd"))))
+
+
    ))
 
 (provide-theme 'wilmersdorf)
