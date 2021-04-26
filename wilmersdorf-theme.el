@@ -321,6 +321,16 @@
    `(diff-hl-insert                           ((t (:background ,wm-green :foreground ,wm-green))))
    `(diff-hl-delete                           ((t (:background ,wm-red :foreground ,wm-red))))
    `(diff-hl-change                           ((t (:background ,wm-blue :foreground ,wm-blue))))
+
+   `(sml/global                               ((t (:foreground ,fg1 :weight normal))))
+   `(sml/filename                             ((t (:foreground ,fg1 :weight normal))))
+   `(sml/line-number                          ((t (:foreground ,fg1 :weight normal))))
+   `(sml/prefix                               ((t (:foreground ,fg1 :weight normal))))
+   `(sml/read-only                            ((t (:foreground ,fg1 :weight normal))))
+   `(sml/modes                                ((t (:foreground ,fg1 :weight normal))))
+   `(sml/modified                             ((t (:foreground ,accent :weight bold))))
+   `(sml/charging                             ((t (:foreground "#88dd88" :weight normal))))
+
    `(highlight-numbers-number                 ((t (:foreground ,numeric))))
 
    `(highlight-symbol-face                    ((t (:background "#343a40"))))
