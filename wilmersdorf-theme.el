@@ -318,6 +318,9 @@
    `(evil-ex-substitute-matches               ((t :foreground "#ee8888" :weight bold :strike-through t)))
    `(evil-ex-substitute-replacement           ((t :foreground "#88dd88" :weight bold)))
 
+   `(diff-hl-insert                           ((t (:background ,wm-green :foreground ,wm-green))))
+   `(diff-hl-delete                           ((t (:background ,wm-red :foreground ,wm-red))))
+   `(diff-hl-change                           ((t (:background ,wm-blue :foreground ,wm-blue))))
    `(highlight-numbers-number                 ((t (:foreground ,numeric))))
 
    `(highlight-symbol-face                    ((t (:background "#343a40"))))
