@@ -41,9 +41,23 @@ Install the `doom-themes` package from MELPA, and load the `doom-wilmersdorf` th
 
 #### Screenshots
 
+<br/>
+On macOS:
+<br/>
+<br/>
+
 ![alt text](./screenshots/posframe.png)
 
 ![alt text](./screenshots/solaire.png)
+
+<br/>
+
+On Arch Linux (WSL2):
+<br/>
+
+![alt text](./screenshots/elisp.png)
+
+![alt text](./screenshots/neofetch.png)
 
 
 Copyright© 2018-2021 Ian Y.E. Pan
