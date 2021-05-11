@@ -9,6 +9,7 @@
 <p align="center">
 <a href="https://github.com/ianpan870102/wilmersdorf-emacs-theme"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance"></a>
 <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="GPL License"></a>
+<a href="https://github.com/ianpan870102/.emacs.d"><img src="https://img.shields.io/github/release/ianpan870102/wilmersdorf-emacs-theme" alt="Version"></a>
 <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
 </p>
 
@@ -40,12 +41,49 @@ Install the `doom-themes` package from MELPA, and load the `doom-wilmersdorf` th
 
 #### Screenshots
 
+<br/>
+On macOS:
+<br/>
+<br/>
+
 ![alt text](./screenshots/posframe.png)
 
 ![alt text](./screenshots/solaire.png)
 
+<br/>
+On Arch Linux (WSL2):
+<br/>
 
-Copyright© 2018 Ian Y.E. Pan
+![alt text](./screenshots/elisp.png)
+
+![alt text](./screenshots/neofetch.png)
+
+
+#### Solaire-mode support
+
+This theme supports solaire-mode. A sample configuration is as
+follows:
+
+```emacs-lisp
+(use-package solaire-mode
+  :hook ((change-major-mode . turn-on-solaire-mode)
+         (after-revert . turn-on-solaire-mode)
+         (ediff-prepare-buffer . solaire-mode)
+         (minibuffer-setup . solaire-mode-in-minibuffer))
+  :config
+  (add-to-list 'solaire-mode-themes-to-face-swap '"wilmersdorf")
+  (setq solaire-mode-auto-swap-bg t)
+  (solaire-global-mode +1))
+
+(with-eval-after-load 'solaire-mode
+  (add-to-list 'custom-theme-load-path (concat user-emacs-directory "themes/"))
+  (load-theme 'wilmersdorf t))
+```
+
+<br/>
+<br/>
+
+Copyright© 2018-2021 Ian Y.E. Pan
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

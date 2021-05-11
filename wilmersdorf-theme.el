@@ -1,6 +1,6 @@
 ;;; wilmersdorf-theme.el --- Emacs theme with dark subtle syntax highlighting
 
-;; Copyright (C) 2019-2020, Ian Y.E. Pan
+;; Copyright (C) 2019-2021, Ian Y.E. Pan
 
 ;; Author: Ian Y.E. Pan
 
@@ -26,19 +26,20 @@
 (deftheme wilmersdorf)
 (let ((class '((class color) (min-colors 89)))
       (fg0     "#d3d3d3")
-      (fg1     "#c6c6c6")
+      (fg1     "#c6c6c6") ; default fg
       (fg2     "#ababab")
       (fg3     "#929292")
       (fg4     "#888395")
       (bg00    "#18191f")
       (bg0     "#1f2024")
-      (bg1     "#282b33")
+      (bg1     "#282b33") ; default bg
       (bg2     "#34373e")
       (bg3     "#41454b")
       (bg4     "#515462")
       (key2    "#90a6db")
       (key3    "#7289bc")
       (accent  "#c9d9ff")
+      (numeric "#a6c1e0")
       (builtin "#7ebebd")
       (keyword "#819cd6")
       (const   "#a6c1e0")
@@ -47,7 +48,16 @@
       (str     "#5b94ab")
       (type    "#b0a2e7")
       (var     "#a6c1e0")
-      (warning "#e1c1ee"))
+      (warning "#e1c1ee")
+
+      ;; standardized palette
+      (wm-yellow         "#c9d9ff")
+      (wm-bluegreen      "#7ebebd")
+      (wm-magenta        "#e1c1ee")
+      (wm-orange         "#cccccc")
+      (wm-red            "#e1c1ee")
+      (wm-green          "#7ebebd")
+      (wm-blue           "#a6c1e0"))
   (custom-theme-set-faces
    'wilmersdorf
    `(default                                  ((,class (:background ,bg1 :foreground ,fg1))))
@@ -72,10 +82,10 @@
    `(font-lock-variable-name-face             ((,class (:foreground ,var))))
    `(font-lock-warning-face                   ((,class (:foreground ,warning :background ,bg2))))
 
-   `(region                                   ((,class (:background ,bg2 :foreground ,fg0))))
+   `(region                                   ((,class (:background ,bg2 :distant-foreground ,fg2 :extend nil))))
    `(highlight                                ((,class (:foreground ,bg3 :background ,fg3))))
-   `(hl-line                                  ((,class (:background  ,bg2))))
-   `(fringe                                   ((,class (:background ,bg1 :foreground ,fg4))))
+   `(hl-line                                  ((,class (:background ,bg2))))
+   `(fringe                                   ((,class (:background ,bg0 :foreground ,fg4))))
    `(cursor                                   ((,class (:background ,fg1))))
    `(show-paren-match-face                    ((,class (:background ,warning))))
    `(show-paren-match                         ((t (:background ,bg4))))
@@ -87,12 +97,19 @@
    `(link                                     ((,class (:foreground ,const :underline t))))
    `(warning                                  ((,class (:foreground ,warning))))
    `(dired-directory                          ((t (:inherit (font-lock-keyword-face)))))
+   `(line-number                              ((,class (:inherit fringe :foreground ,fg1))))
+   `(line-number-current-line                 ((,class (:inherit line-number :bold t))))
 
    `(mode-line                                ((,class (:bold nil :foreground ,fg1 :background ,bg4))))
    `(mode-line-inactive                       ((,class (:bold nil :foreground ,fg2 :background ,bg3))))
    `(mode-line-buffer-id                      ((,class (:bold t :foreground ,func :background nil))))
    `(mode-line-highlight                      ((,class (:foreground ,keyword :box nil :weight bold))))
    `(mode-line-emphasis                       ((,class (:foreground ,fg1))))
+
+   '(tab-line              ((t (:inherit fringe))))
+   '(tab-line-tab-current  ((t (:inherit default))))
+   '(tab-line-tab-inactive ((t (:inherit fringe))))
+   '(tab-line-highlight    ((t (:inherit region))))
 
    `(org-code                                 ((,class (:foreground ,fg2))))
    `(org-hide                                 ((,class (:foreground ,fg4))))
